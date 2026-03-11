@@ -1,0 +1,53 @@
+# ── Python / FastAPI ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environment variables ──────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+backend/.env
+
+# ── Next.js / Node ─────────────────────────────────────────
+node_modules/
+.next/
+out/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Uploads / temp ─────────────────────────────────────────
+uploads/
+*.pdf
+*.docx
+*.tmp
+
+# ── Alembic ────────────────────────────────────────────────
+# Keep versions tracked, ignore nothing extra
+
+# ── Logs ───────────────────────────────────────────────────
+*.log
+logs/
