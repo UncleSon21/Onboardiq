@@ -83,7 +83,8 @@ export default function RegisterPage() {
             style={{ background: "rgba(232,160,32,0.2)", border: "1px solid rgba(232,160,32,0.3)" }}>
             <Sparkles size={15} style={{ color: "var(--color-amber)" }} />
           </div>
-          <span className="font-display text-xl" style={{ color: "white" }}>OnboardIQ</span>
+          <HexLogo />
+<span className="font-display text-xl" style={{ color: "white" }}>Cobby<span style={{ color: "#C9A84C" }}>IQ</span></span>
         </div>
 
         {/* Middle copy */}
@@ -148,9 +149,9 @@ export default function RegisterPage() {
           <div className="lg:hidden flex items-center gap-2 mb-10">
             <div className="w-7 h-7 rounded-lg flex items-center justify-center"
               style={{ background: "var(--color-amber-light)", border: "1px solid #f5d98a" }}>
-              <Sparkles size={13} style={{ color: "var(--color-amber)" }} />
             </div>
-            <span className="font-display text-xl" style={{ color: "var(--color-ink)" }}>OnboardIQ</span>
+            <HexLogo/>
+            <span className="font-display text-xl" style={{ color: "var(--color-ink)" }}>Cobby<span style={{ color: "#C9A84C" }}>IQ</span></span>
           </div>
 
           <div className="animate-fade-up">
@@ -229,5 +230,14 @@ export default function RegisterPage() {
         </div>
       </div>
     </div>
+  );
+}
+function HexLogo({ size = 28 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 28 28" fill="none">
+      <polygon points="14,2 25,8 25,20 14,26 3,20 3,8" fill="#C9A84C" opacity="0.9" />
+      <polygon points="14,6 22,10.5 22,19.5 14,24 6,19.5 6,10.5" fill="#08112A" />
+      <polygon points="14,10 18,12.5 18,17.5 14,20 10,17.5 10,12.5" fill="#C9A84C" opacity="0.6" />
+    </svg>
   );
 }
