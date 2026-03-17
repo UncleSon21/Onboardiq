@@ -24,7 +24,7 @@ export default function RegisterPage() {
     try {
       const res = await authApi.register({
         company_name: form.company_name,
-        name: form.admin_name,
+        admin_name: form.admin_name,
         email: form.admin_email,
         password: form.admin_password,
       });
