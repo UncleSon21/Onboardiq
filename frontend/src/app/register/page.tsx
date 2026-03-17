@@ -45,9 +45,9 @@ export default function RegisterPage() {
   }
 
   const fields = [
-    { name: "company_name", label: "Company name",  type: "text",     placeholder: "VaniaFlorist", icon: Building2 },
-    { name: "admin_name",   label: "Your name",     type: "text",     placeholder: "Sion Le",       icon: Users },
-    { name: "admin_email",  label: "Work email",    type: "email",    placeholder: "sion@company.com", icon: null },
+    { name: "company_name", label: "Company name",  type: "text",     placeholder: "Ex: Microsoft, IBM, etc", icon: Building2 },
+    { name: "admin_name",   label: "Your name",     type: "text",     placeholder: "Hung Son Le",       icon: Users },
+    { name: "admin_email",  label: "Work email",    type: "email",    placeholder: "user@company.com", icon: null },
     { name: "admin_password", label: "Password",   type: "password", placeholder: "Min. 8 characters", icon: null },
   ];
 
