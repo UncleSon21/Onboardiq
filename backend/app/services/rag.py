@@ -1,5 +1,5 @@
 """
-OnboardIQ — RAG Service
+CobbyIQ — RAG Service
 Handles embedding, vector search, and LLM answer generation.
 
 Flow:
@@ -27,7 +27,7 @@ SIMILARITY_THRESHOLD = 0.5            # min score to consider a chunk relevant
 TOP_K = 5                              # retrieve top 5 chunks per query
 CLAUDE_MODEL = "claude-sonnet-4-6"     # Claude model for answer generation
 
-SYSTEM_PROMPT = """You are OnboardIQ, an AI assistant helping new employees \
+SYSTEM_PROMPT = """You are CobbyIQ, an AI assistant helping new employees \
 get answers during their onboarding at {company_name}.
 
 You only answer questions using the company documentation provided below. \

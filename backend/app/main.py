@@ -1,5 +1,5 @@
 """
-OnboardIQ — FastAPI Application Entry Point
+CobbyIQ — FastAPI Application Entry Point
 """
 
 from fastapi import FastAPI
@@ -12,7 +12,7 @@ from app.routes import (
 )
 
 app = FastAPI(
-    title="OnboardIQ API",
+    title="CobbyIQ API",
     description="AI-powered employee onboarding copilot",
     version="0.1.0",
     docs_url="/docs",       # Swagger UI at http://localhost:8000/docs

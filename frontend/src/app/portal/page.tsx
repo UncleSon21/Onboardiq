@@ -142,7 +142,7 @@ export default function PortalPage() {
       >
         <div className="flex items-center gap-6">
           <span className="font-display text-xl tracking-tight" style={{ color: "var(--color-amber)" }}>
-            OnboardIQ
+            CobbyIQ
           </span>
           <div className="flex gap-1 p-1 rounded-lg" style={{ background: "var(--color-paper)" }}>
             {(["tasks", "chat"] as const).map((v) => (

@@ -56,7 +56,7 @@ export default function LoginPage() {
             <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "rgba(232,160,32,0.2)", border: "1px solid rgba(232,160,32,0.3)" }}>
               <Sparkles size={15} style={{ color: "var(--color-amber)" }} />
             </div>
-            <span className="font-display text-xl" style={{ color: "white" }}>OnboardIQ</span>
+            <span className="font-display text-xl" style={{ color: "white" }}>CobbyIQ</span>
           </div>
         </div>
 
@@ -88,7 +88,7 @@ export default function LoginPage() {
         {/* Bottom quote */}
         <div className="relative z-10 p-5 rounded-2xl" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}>
           <p className="text-sm italic mb-3" style={{ color: "rgba(255,255,255,0.7)" }}>
-            &ldquo;OnboardIQ cut our ramp-up time from 3 weeks to 5 days. New hires feel supported from day one.&rdquo;
+            &ldquo;CobbyIQ cut our ramp-up time from 3 weeks to 5 days. New hires feel supported from day one.&rdquo;
           </p>
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-semibold" style={{ background: "var(--color-amber)", color: "white" }}>S</div>
@@ -109,7 +109,7 @@ export default function LoginPage() {
             <div className="w-7 h-7 rounded-lg flex items-center justify-center" style={{ background: "var(--color-amber-light)", border: "1px solid #f5d98a" }}>
               <Sparkles size={13} style={{ color: "var(--color-amber)" }} />
             </div>
-            <span className="font-display text-xl" style={{ color: "var(--color-ink)" }}>OnboardIQ</span>
+            <span className="font-display text-xl" style={{ color: "var(--color-ink)" }}>CobbyIQ</span>
           </div>
 
           <div className="animate-fade-up">

@@ -1,5 +1,5 @@
 """
-OnboardIQ — Pydantic Schemas
+CobbyIQ — Pydantic Schemas
 Request bodies and response shapes for all API routes.
 """
 

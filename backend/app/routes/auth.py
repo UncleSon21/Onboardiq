@@ -12,7 +12,7 @@ router = APIRouter(prefix="/auth", tags=["auth"])
 def register_workspace(payload: WorkspaceCreate, db: Session = Depends(get_db)):
     """
     Register a new company workspace + first HR admin account.
-    This is the signup flow for new OnboardIQ customers.
+    This is the signup flow for new CobbyIQ customers.
     """
     # Check email not already taken
     existing = db.query(User).filter(User.email == payload.admin_email).first()
